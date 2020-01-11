@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Corben:700" rel="stylesheet">
+
+    <title>Kumie-Portfolio</title>
+</head>
+<body>
+    <header>
+        <div id="nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+            <ul>
+                <li><a href="#profile">Profile</a>
+                </li>
+                <li><a href="#works">Works</a>
+                </li>
+                <li><a href="#portfolio">Portfolio</a>
+                </li>
+                <li><a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <div class="main-title">
+            <h1>Kumie Miyata<br>
+                Portfolio</h1>
+            <h2>Web Enginner</h2>
+            <button class="btn"><a href="#profile">Who's Me!</a></button>
+        </div>
+    </header>
+    <section>
+        <div id="profile">
+            <h1 class="title">Profile</h1>
+                <hr>
+            <div class="profile">
+                <div class="myphoto">
+                    <img src="img/kumie.png" alt="宮田久美江">
+                </div>
+                    <ul class="profile-list">
+                        <li>名前： 宮田 久美江 -Kumie Miyata-</li>
+                        <li>出身： 埼玉県</li>
+                        <li>学歴： 埼玉県立越生高校卒業</li>
+                        <li>職歴： <span style="font-family:sans-serif;">約10年間サービス業の一般事務を経験</span></li>
+                        <li>職業訓練： <span style="font-family:sans-serif;">HTML、CSS、Photoshop、Illustratorの学習を修了</span></li>
+                        <li>通信講座：<span style="font-family:sans-serif;">HTML5、CSS3、JavaScript、WordPress、Cakephp、Laravel、Gitの学習を修了</span></li>
+                        <li>趣味： アロマ・ヨガ・アンチエイジング</li>
+                    </ul>
+            </div>
+            <div class="button">
+                <button class="btn-2"><a href="#works">Job Description</a></button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="bg-color">
+            <div id="works">
+                <div class="title-1">
+                    <h1>Works</h1>
+                    <hr>
+                </div>
+                <div class="four-columns">           
+                    <div class="works">
+                        <h3><span style="font-family:sans-serif;">WordPress</span></h3>
+                    </div>
+                    <div class="works">
+                        <h3><span style="font-family:sans-serif;">LP制作</span></h3>
+                    </div>
+                    <div class="works">
+                        <h3>ホームページ制作</h3>
+                    </div>
+                    <div class="works">
+                        <h3><span style="font-family:sans-serif;">PHP案件</span></h3>
+                    </div>
+                </div>
+                    <div class="button">
+                        <button class="btn-2"><a href="#portfolio">Portfolio</a></button>
+                    </div>
+            </div>
+        </div>
+        
+    </section>
+    <section>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="title-1">Portfolio</h1>
+                <hr>
+                <div class="jp-main">
+                    <div class="jp-1">
+                        <img src="img/jp.jpg">
+                        <p>通信講座のバーチャルプロジェクトにて<br>
+                        レスポンシブ</p>
+                        <br>
+                        <img src="img/jp2.jpg">
+                        <p>通信講座のバーチャルプロジェクトにて<br>
+                        レスポンシブ</p>
+                    </div>
+                    <div class="jp-top">
+                        <img src="img/jp_top.jpg">
+                        <p>通信講座のバーチャルプロジェクトにて<br>
+                        レスポンシブ・ドロップダウンリスト・ハンバーガーメニュー</p>
+                    </div>
+                    <div class="sample-lp">
+                        <img src="img/sample.jpg">
+                        <p>サンプルとして</p>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button class="btn-2"><a href="#profile">Profile</a></button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="contact">
+            <h1 class="title-1">Contact</h1>
+            <hr>
+            <form action="confirmation.php" method="post">
+                <div>name<br><input type="text" name="name" value="" class="contact"></div>
+                <div>Email<br><input type="text" name="mail" value="" class="contact"></div>
+                <div>message<br><textarea class="contact-2" name="inquiry"></textarea></div>
+                <input type="submit" value="submit" class="submit">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright ©︎ Kumie Miyata portfolio 2020</p>
+    </footer>
+    <script></script>
+</body>
+</html>
